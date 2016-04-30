@@ -1,0 +1,10 @@
+{
+  "name": "angular-sqlite",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "./angular-sqlite.js",
+  "ignore": [],
+  "dependencies": {
+    "angular": ">=1.5"
+  }
+}
