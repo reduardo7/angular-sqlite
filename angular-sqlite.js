@@ -13,10 +13,6 @@
  *
  * The `ngSQLite` module provides routing and deeplinking services and directives for angular apps.
  *
- * ## Example
- * See {@link ngSQLite.$route#example $route} for an example of configuring and using `ngSQLite`.
- *
- *
  * <div doc-module-components="ngSQLite"></div>
  */
 /*jslint browser: true, regexp: true, white: true, evil: true */
