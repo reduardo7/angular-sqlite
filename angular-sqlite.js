@@ -17,7 +17,7 @@
  */
 /*jslint browser: true, regexp: true, white: true, evil: true */
 /*global openDatabase */
-angular.module('ngSQLite', []).factory('$SQLite', function ($q) {
+angular.module('ngSQLite').factory('$SQLite', ['$q', function ($q) {
 	var _db,
 		_db_initialited = false,
 		_db_init_count = 0,
@@ -545,4 +545,4 @@ angular.module('ngSQLite', []).factory('$SQLite', function ($q) {
 
 		isReady: function () { return _db_initialited; }
 	};
-});
+}]);
