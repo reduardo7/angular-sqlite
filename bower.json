@@ -5,6 +5,6 @@
   "main": "./angular-sqlite.js",
   "ignore": [],
   "dependencies": {
-    "angular": ">=1.5"
+    "angular": ">=1"
   }
 }
